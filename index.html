@@ -1,15 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheets/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabs CV</title>
 </head>
+
 <body>
-    <h1>GAB'S CV🥸 </h1>
-    <h2>Proyectos personales</h2>
+    <section>
+    <h1>GAB'S CV </h1>
+    <h2 class="subtitle">Proyectos personales</h2>
     hghg
-    <h2>Experiencia Laboral</h2>
-    dsdd
+    <h2 class="subtitle"> Experiencia Laboral</h2>
+    <h6>pedo</h6>
+    <img id="photo" src="https://placehold.co/600x400" alt="Placeholder Image" style="max-width: 100%; height: auto;">
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/VIDEO_ID" title="Video de YouTube"
+        frameborder="0" allowfullscreen></iframe>
+    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates facilis nostrum blanditiis accusantium odit
+        enim itaque nemo sapiente. In suscipit ipsam unde veniam beatae quos nulla perspiciatis fugit ut quibusdam.</h3>
+    </section>
+    <section>
+        <h2 class="subtitle">Formulario de Contacto</h2>
+        <form action="#" method="post">
+            <!-- Campo de entrada de texto -->
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Introduce tu nombre">
+
+            <!-- Campo de selección -->
+            <label for="asunto">Asunto:</label>
+            <select id="asunto" name="asunto" required>
+                <option value="">Seleccione un asunto</option>
+                <option value="consulta">Consulta</option>
+                <option value="sugerencia">Sugerencia</option>
+                <option value="reclamo">Reclamo</option>
+            </select>
+
+            <!-- Radiobutton -->
+            <label>Preferencia de contacto:</label>
+            <label>
+                <input type="radio" name="contacto" value="email" required> Email
+            </label>
+            <label>
+                <input type="radio" name="contacto" value="telefono" required> Teléfono
+            </label>
+
+            <!-- Campo de texto largo -->
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Escribe tu mensaje aquí"></textarea>
+
+            <!-- Botón de envío -->
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
 </body>
+
 </html>
